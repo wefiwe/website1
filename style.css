@@ -1,0 +1,120 @@
+header{
+    display: flex;
+    height: 150px;
+    color: rgb(4, 4, 39);
+    font-family: fantasy;
+    background-color: whitesmoke;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;   
+}
+
+h1{
+    font-size: 40px; 
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+main{
+    background-image: url(./img/blue.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    flex-direction: column; 
+    height: 1000px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(17, 41, 107);
+    font-family: monospace;
+}
+
+
+.profile h2{
+    font-size: 40px;
+    margin: 70px ;
+}
+
+.list li{
+    font-size: 30px;
+    margin: 40px;
+}
+
+.hobby{
+    padding: 50px 0;
+}
+
+.hobby h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.life{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.life li{
+    padding: 0 40px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(50, 205, 184);
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+button{
+    font-size: 25px;
+    padding: 10px 30px;
+    margin: 30px 70px;
+    border-radius: 20px;
+    border: none;
+    color: whitesmoke;
+}
+
+button:first-child{
+    background: rgba(18, 228, 123,0.5);
+}
+.register-left:hover{
+    background: rgb(15, 49, 199,1);
+}
+button:nth-child(2){
+    background: rgba(34, 21, 221, 0.5);
+}
+.register-center:hover{
+    background: rgb(203, 18, 228,1);
+}
+button:last-child{
+    background: rgba(216, 15, 15, 0.5);
+}
+.register-right:hover{
+    background: rgb(204, 11, 11)
+}
+
+.seedkun{
+    animation: fadeIn 3s ease;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        margin-left: 800px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
